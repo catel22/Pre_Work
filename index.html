@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Personal Page</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Personal Page">
+
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+    </head>
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <figcaption>Extra Links</figcaption>
+            <ul>
+                <li><a href="https://youtu.be/dFsG5Znsqxk">Favorite video</a></li>
+                <li><a href="https://github.com/catel22">Github Repository</a></li>
+                <li><a href="https://www.linkedin.com/in/cate-lewison-7b3b22233/">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <section class="center">
+            <header>
+                <nav>
+                    Home
+                </nav>
+            </header>
+            <section>
+                <main>
+                    <article>
+                        <h2 style="font-size: 2em">Personal Page: Cate Lewison</h2>
+                        <table>
+                            <tr>
+                                <td>
+                                    <hr>
+                                    <img style="float: left;" src="assets/static/seniorportait.jpg" alt="Senior Portrait"/>
+                                    <h1 style="padding: 2%;">Hi everybody!</h1>
+                                    <p>Welcome to my personal page. I am a rising sophomore at Harvey Mudd College (in Claremont, CA) majoring in CS/Math.
+                                        I love all things outdoors and swimming in any lake/ocean. I play soccer and lacrosse for my school and love to run. Outside of school,
+                                        I play the violin and can do a handstand for a long time. I am a big fan of any competitive athletics activity (whether I am playing
+                                        or watching) and love hearing new music.</p>
+                                    <p></p>
+                                    <p><b>My github username is Catel22.</b> I have taken courses in Java, Python, C++, Assembly, and Mobile Development.
+                                        However, I forget a lot of the skills I used and know I have a ton to learn. I like the puzzle and construction that
+                                        is CS. I also hope to study Spanish at school and my favorite author is David McCullough. 
+                                        I am excited to work in a collaborative environment and learn from everybody!
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p>
+                        </p>
+                        <div>
+                            <p>Choose your favorite sport:</p>
+                            <input type="radio" id="soccer" name="sport" value="Soccer">
+                            <label for="Soccer">Soccer/Futbol</label><br>
+                            <input type="radio" id="football" name="sport" value="Football">
+                            <label for="Football">American Football</label><br>
+                            <input type="radio" id="bball" name="sport" value="Basketball">
+                            <label for="bball">Basketball</label>
+                        </div>
+                        <p></p>
+                        <div>
+                            <p>Check all that apply. I have visited...</p>
+                            <input type="checkbox" id="one" name="continent" value="One">
+                            <label for="one"> 1 continent </label><br>
+                            <input type="checkbox" id="two" name="continent" value="Two">
+                            <label for="two"> 2 continents </label><br>
+                            <input type="checkbox" id="three" name="continent" value="Three">
+                            <label for="three"> 3 or more different continents</label><br>
+                        </div>
+                        <pre>
+                            <form action="/action_page.php" id="contact">
+                                <legend><b>Contact Me</b></legend>
+                                <input type="text" name="fullname" placeholder="Name">
+                                <input type="text" name="email" placeholder="Email">
+                                <textarea name="msg" placeholder="Write message here"></textarea>
+                                <input type="submit" value="Submit" method="POST">
+                            </form>
+                        </pre>
+                    </article>
+                </main>
+            </section>
+            <footer>
+                I am excited to meet you all!
+            </footer>
+        </section>
+        <script type="text/javascript" src="assets/javascript/index.js"></script>
+    </body>
+</html>
